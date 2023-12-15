@@ -39,3 +39,28 @@
 # result=num1*num2*num3*num4
 #
 # print(f"Your total result is {result}")
+
+# Task 4
+
+# num1 = int(input("Enter first digit: "))
+# num2 = int(input("Enter second digit: "))
+# num3 = int(input("Enter third digit: "))
+
+# userChoice = input("Choose your option: highest, lowerst or average value?\n")
+
+# if userChoice == "highest":
+#     if num1 > num2 > num3:
+#         print(num1)
+#     elif num2 > num3 > num1:
+#         print(num2)
+#     else:
+#         print(num3)
+# elif userChoice == "lowerst":
+#     if num1 < num2 < num3:
+#         print(num1)
+#     elif num2 < num3 < num1:
+#         print(num2)
+#     else:
+#         print(num3)
+# else:
+#     print((num1 + num2 + num3) / 3)
