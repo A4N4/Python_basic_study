@@ -64,3 +64,15 @@
 #         print(num3)
 # else:
 #     print((num1 + num2 + num3) / 3)
+
+#  Task 5
+
+# metersEntered = float(input("Enter number of meters to convert: "))
+# convertTo = input("Choose system to convert: miles, inches or yards?\n")
+
+# if convertTo == "miles":
+#     print(metersEntered * 0.00062137)
+# elif convertTo == "inches":
+#     print(metersEntered * 39.370)
+# else:
+#     print(metersEntered * 1.0936)
