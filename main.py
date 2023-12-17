@@ -102,3 +102,52 @@
 # except Exception as e:
 #     print("Enter only numbers, please!")
 #     print(f"ValueError: {e}")
+
+#  Task 7
+# try:
+#     while True:
+#         num1=int(input("Enter first number: "))
+#         num2=int(input("Enter second number: "))
+#
+#         if num1 > num2:
+#             print (num2, num1)
+#         elif num2>num1:
+#             print(num1, num2)
+#         else:
+#             print("Numbers are equal")
+#             break
+# except Exception as e:
+#     print("Enter digits only!")
+#     print(f"Error: {e}")
+
+# Task 8
+
+# try:
+#     while True:
+#         num1=float(input("Enter first number: "))
+#         num2=float(input("Enter second number: "))
+#         actions=input("What to do with numbers: +, -, *, /? ")
+#         sumnums=(num1+num2)
+#         extractnums=(num1-num2)
+#         multiplynums=(num1*num2)
+#         dividenums=(num1/num2)
+#
+#         match actions:
+#             case '+':
+#                 print(sumnums)
+#             case '-':
+#                 print(extractnums)
+#             case '*':
+#                 print(multiplynums)
+#             case '/':
+#                 if num2 !=0:
+#                     print(dividenums)
+#                 else:
+#                     break
+#
+# except ZeroDivisionError as error:
+#     print("Division by 0!")
+#     print(f"ZeroDivisionError occurred: {error}")
+# except Exception as e:
+#     print("Enter digits only!")
+#     print(f"Error: {e}")
