@@ -76,3 +76,29 @@
 #     print(metersEntered * 39.370)
 # else:
 #     print(metersEntered * 1.0936)
+
+# Task 6
+# try:
+#     dayChoice = int(input("Choose, please, the day of the week by entering number from 1 to 7: "))
+#
+#     match dayChoice:
+#         case 1:
+#             print("It's Monday")
+#         case 2:
+#             print("It's Tuesday")
+#         case 3:
+#             print("It's Wednesday")
+#         case 4:
+#             print("It's Thursday")
+#         case 5:
+#             print("It's Friday")
+#         case 6:
+#             print("It's Saturday")
+#         case 7:
+#             print("It's Sunday")
+#         case _:
+#             print("Incorrect menu item")
+#
+# except Exception as e:
+#     print("Enter only numbers, please!")
+#     print(f"ValueError: {e}")
