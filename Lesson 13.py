@@ -61,10 +61,15 @@ class Academy:
         return self.__subjects
 
 
+    @property
+    def grade(self):
+        return self.__grade
+
+
     def show_academy(self):
         print(f"Academy is {self.AcademyName},subjects taught: {self.subjects}, there are {self.__grade} grades")
 
-test_academy = Academy ("hihg tech",'maths', 5)
+test_academy = Academy ("Hihg tech",'maths', 5)
 test_academy.show_academy()
 test_student= Student ("Lesi","Loo", 45)
 test_student.show_student()
